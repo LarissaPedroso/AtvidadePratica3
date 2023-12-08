@@ -10,20 +10,11 @@ public class Exercicio4_While {
 		double contTotal = 0, sumIdade = 0, media = 0;
 		
 		System.out.println("****Menu Colaboradores****");
-		System.out.println("*Identidade de Gênero*");
-		System.out.println("1 - Mulher Cis");
-		System.out.println("2 - Homem Cis");
-		System.out.println("3 - Não Binário");
-		System.out.println("4 - Mulher Trans");
-		System.out.println("5 - Homem Trans");
-		System.out.println("6 - Outros");
+		System.out.println("\n*Identidade de Gênero*");
+		System.out.println("1 - Mulher Cis \n2 - Homem Cis \n3 - Não Binário \n4 - Mulher Trans \n5 - Homem Trans \n6 - Outros");
 		
-		System.out.println("*Pessoa Desenvolvedora*");
-		System.out.println("1 - Backend");
-		System.out.println("2 - Frontend");
-		System.out.println("3 - Mobile");
-		System.out.println("4 - FullStack");
-		
+		System.out.println("\n*Pessoa Desenvolvedora*");
+		System.out.println("1 - Backend \n2 - Frontend \n3 - Mobile \n4 - FullStack");
 		
 		Scanner leia = new Scanner(System.in);
 		

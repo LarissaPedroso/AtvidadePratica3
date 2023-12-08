@@ -21,12 +21,11 @@ public class Exercicio6_DoWhile {
 				if(num > 0) {
 					total++;
 				}
-				
 			}
 		}while(num != 0);
+		
 		media = sum/total;
 		System.out.printf("\nA média de todos os números múltiplos de 3 é: %.1f",  media);
 		leia.close();
 	}
-
 }
